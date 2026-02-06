@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4af52473642ed2ab2e9a197a7c0db2e1",
+    "content-hash": "90207b139f8826be6566e31110e5b1a4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6133,7 +6133,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/issue/nodehive_core-3571985.git",
-                "reference": "a39bebad32a4ce5aca0a43da8ba9e2acc727045c"
+                "reference": "c9286d37bb7b949e8b88472db1631eabe1b6f5ef"
             },
             "require": {
                 "drupal/core": "^10 || ^11",
@@ -6146,7 +6146,7 @@
                 "GPL-2.0-or-later"
             ],
             "description": "Provides core functionality for NodeHive",
-            "time": "2026-02-06T13:52:41+00:00"
+            "time": "2026-02-06T15:33:28+00:00"
         },
         {
             "name": "drupal/paragraphs",
