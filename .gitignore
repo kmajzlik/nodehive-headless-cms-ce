@@ -20,6 +20,7 @@ yarn-error.log
 /web/themes/contrib/
 /web/profiles/contrib/
 /web/libraries/
+/recipes/
 
 # Ignore configuration files that may contain sensitive information.
 /web/sites/*/settings.local.php
