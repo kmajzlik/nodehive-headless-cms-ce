@@ -32,7 +32,7 @@
         "ext-pdo": "*",
         "ext-xml": "*",
         "composer/installers": "^2.0",
-        "cweagans/composer-patches": "^1.7",
+        "cweagans/composer-patches": "^2.0",
         "drupal/admin_toolbar": "^3.4",
         "drupal/admin_toolbar_entity_version": "^1.0",
         "drupal/amswap": "^3.2",
@@ -128,6 +128,7 @@
         "sort-packages": true,
         "allow-plugins": {
             "composer/installers": true,
+            "cweagans/composer-configurable-plugin": true,
             "cweagans/composer-patches": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/*": true,
@@ -151,8 +152,18 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "enable-patching": true,
         "composer-exit-on-patch-failure": false,
+        "patches": {
+            "drupal/content_planner": {
+                "3542886 - PHP 8.4 Support": "https://git.drupalcode.org/project/content_planner/-/merge_requests/60.diff"
+            },
+            "drupal/rabbit_hole": {
+                "3516167 - PHP 8.4 compatibility": "https://git.drupalcode.org/project/rabbit_hole/-/merge_requests/87.diff"
+            },
+            "drupal/shield": {
+                "3562392 - PHP 8.4 Implicit nullable parameters for Shield": "https://git.drupalcode.org/project/shield/-/merge_requests/30.diff"
+            }
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"

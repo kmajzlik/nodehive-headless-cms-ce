@@ -1,0 +1,41 @@
+{
+    "_hash": "5c55266626aacf01d2b624b830c8db003428580e1d5c4dc49f4454dba27f61b6",
+    "patches": {
+        "drupal/content_planner": [
+            {
+                "package": "drupal/content_planner",
+                "description": "3542886 - PHP 8.4 Support",
+                "url": "https://git.drupalcode.org/project/content_planner/-/merge_requests/60.diff",
+                "sha256": "baacb928aee3311f84c4fec19bad0da1113db05690c00ca3a4c3e1614575f198",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ],
+        "drupal/rabbit_hole": [
+            {
+                "package": "drupal/rabbit_hole",
+                "description": "3516167 - PHP 8.4 compatibility",
+                "url": "https://git.drupalcode.org/project/rabbit_hole/-/merge_requests/87.diff",
+                "sha256": "5445a06e4acd83b44e2a27b06b039aa9f369c5892caf11cac71243b90eef2777",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ],
+        "drupal/shield": [
+            {
+                "package": "drupal/shield",
+                "description": "3562392 - PHP 8.4 Implicit nullable parameters for Shield",
+                "url": "https://git.drupalcode.org/project/shield/-/merge_requests/30.diff",
+                "sha256": "f21f6c2f9eccd7bfea39bc1899eabbebadcb6b9a9e11d55d153a09ca4a257852",
+                "depth": 1,
+                "extra": {
+                    "provenance": "root"
+                }
+            }
+        ]
+    }
+}
